@@ -1,0 +1,24 @@
+name: Kinektor factory
+description: Makes hardened long-range knockbacking units.
+type: UnitFactory
+unitType: kinektor
+size: 4
+produceTime: 600
+consumes: {
+  power: 1
+  items: {
+    items: [
+      silicon/12
+      titanium/20
+	  phase-fabric/10
+    ]
+  }
+}
+category: units
+research: fortress-factory
+requirements: [
+  silicon/40
+  titanium/100
+  phase-fabric/32 
+]
+maxSpawn: 2

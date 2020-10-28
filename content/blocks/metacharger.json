@@ -1,0 +1,28 @@
+{
+	"type": "GenericSmelter",
+	"name": "Metacharger",
+	"health": 1200,
+	"description": "Charges surge alloy to make varanium",
+	"outputItem": "varanium/1",
+	"size": 4,
+	"craftEffect": "spawn",
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 150,
+	"consumes": {
+		"power": 3,
+		"items": {
+			"items": [
+				{ "item": "surge-alloy", "amount": 3 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "surge-alloy", "amount": 100 },
+		{ "item": "lead", "amount": 240 },
+		{ "item": "thorium", "amount": 100 },
+		{ "item": "silicon", "amount": 560 }
+	],
+	"category": "crafting",
+	"research": "overdrive-projector"
+}

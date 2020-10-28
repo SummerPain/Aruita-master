@@ -1,0 +1,139 @@
+type: ItemTurret
+name: The Dominion
+description: Missilse swarm
+health: 3200
+size: 4
+reload: 200
+range: 400
+ammoUseEffect: shellEjectBig
+inaccuracy: 20
+rotatespeed: 4
+heatColor: ff0000
+maxAmmo: 50
+recoil:8
+cooldown: 0.01
+restitution: 0.08
+ammo:
+{
+
+graphite:
+{
+	"type": "ArtilleryBulletType"
+	bulletWidth: 16
+	bulletHeight: 24
+	collides: true
+	trailColor: 2b90cf
+	collidesAir: true
+    frontColor: 2b90cf
+    backColor: 1a4763
+	speed: 12
+	damage: 100
+	hitEffect: lancerLaserShoot
+	splashDamageRadius: 40
+	splashDamage: 24
+	lifetime: 13
+	reloadMultiplier: 1.5
+	hitSound:missile
+	ammoMultiplier: 1
+	fragBullets:4
+	fragBullet:
+	{
+		type: MissileBulletType
+		fragVelocityMin: 1
+		pierce: false
+    	frontColor: 2b90cf
+    	backColor: 1a4763
+		speed: 10
+		bulletWidth: 6
+		bulletHeight: 14
+		homingPower: 10
+		homingRange: 800
+		lifetime: 24
+		hitEffect: bubble
+			splashDamageRadius: 24
+			splashDamage: 16
+		fragBullets: 5
+		fragBullet:
+		{
+			type: MissileBulletType
+			weaveScale:2.4
+			weaveMag:16
+			fragVelocityMin: 0.7
+			frontColor: 2b90cf
+			backColor: 1a4763
+			speed: 6
+			trailColor: 2b90cf
+			homingPower: 10
+			homingRange: 560
+			lifetime: 120
+			splashDamageRadius: 16
+			splashDamage: 13
+			hitEffect: bubble  
+			hitSound:plasticExplosion 
+		}
+	}
+}
+plastanium:
+{
+	"type": "ArtilleryBulletType"
+	bulletWidth: 16
+	bulletHeight: 24
+	collides: true
+	trailColor: 1dcfad
+	collidesAir: true
+    frontColor: 1ebd48
+    backColor: 9dc2bb
+	speed: 12
+	damage: 100
+	hitEffect: lancerLaserShoot
+	splashDamageRadius: 40
+	splashDamage: 40
+	lifetime: 13
+	reloadMultiplier: 1.8
+	hitSound:missile
+	ammoMultiplier: 4
+	fragBullets:4
+	fragBullet:
+	{
+		type: MissileBulletType
+		fragVelocityMin: 1
+		pierce: false
+    	frontColor: 1ebd48
+    	backColor: 9dc2bb
+		speed: 10
+		bulletWidth: 6
+		bulletHeight: 14
+		homingPower: 10
+		homingRange: 800
+		lifetime: 24
+		hitEffect: bubble
+			splashDamageRadius: 24
+			splashDamage: 16
+		fragBullets: 8
+		fragBullet:
+		{
+			type: MissileBulletType
+			weaveScale:2.4
+			weaveMag:16
+			fragVelocityMin: 0.7
+			trailColor: 1dcfad
+			frontColor: 1ebd48
+			backColor: 9dc2bb
+			speed: 6
+			homingPower: 10
+			homingRange: 560
+			lifetime: 120
+			splashDamageRadius: 18
+			splashDamage: 12
+			hitEffect: plasticExplosion   
+		}
+	}
+}
+}
+requirements: [
+  silicon/320
+  titanium/300
+  surge-alloy/200
+]
+category: turret
+research: ripple

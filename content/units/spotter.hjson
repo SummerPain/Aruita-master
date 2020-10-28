@@ -1,0 +1,38 @@
+type: flyingUnit
+name: Spotter
+description: Small, weak but fast.
+speed: 0.32
+flying: true
+health: 50
+engineOffset: 5
+range: 320
+weapon: {
+  name: small-rockets
+  length: 2
+  reload: 52
+  alternate: true
+  shootSound: small-rocket-shoot
+  bullet: {
+    "type": "MissileBulletType",
+    "lifetime": 200,
+    "speed": 2.2,
+	"damage": 9
+    "splashDamageRadius": 2,
+    "splashDamage": 8,
+    "frontColor": "1e5cfa",
+    "backColor": "ffffff",
+    "homingPower": 2,
+    "homingRange": 100,
+    "fragBullets": 1,
+    "fragBullet": {
+        "type": "BasicBulletType",
+        "lifetime": 32,
+        "speed": 0.85,
+		"damage": 1.6,
+		"homingPower": 0.75,
+		"homingRange": 40,
+		"pierce": true,
+		"frontColor": "ffffff",
+    }
+}
+}

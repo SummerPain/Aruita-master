@@ -1,0 +1,54 @@
+type: ItemTurret
+name: Stairs to Heaven
+description: Bullet of world revolution
+health: 4400
+size: 8
+shootShake: 10
+reload: 1200
+range: 800
+powerUse: 8
+inaccuracy: 0
+rotatespeed: 0.032
+shootEffect: spawn 
+shootSound: heaven-shot
+maxAmmo:1
+outlineIcon: false
+heatColor: ff0000
+recoil: 16
+restitution: 0.003
+ammoUseEffect: teleportActivate
+cooldown: 0.002
+ammo:
+{
+
+varanium-shell:
+{
+	"type": "ArtilleryBulletType"
+	bulletWidth: 34
+	bulletHeight: 2800
+	collides: true
+	hitSize: 32
+	trailColor: 03b6fc
+	collidesAir: true
+    frontColor: 00496b
+    backColor: 08b1ff
+	speed: 24
+	pierce:true
+	damage: 2400
+	hitEffect: teleport  
+	splashDamageRadius: 16
+	splashDamage: 600
+	lifetime: 180
+	reloadMultiplier: 1
+	hitSound:laser
+	ammoMultiplier: 1
+}
+}
+requirements: [
+  phase-fabric/500
+  titanium/500
+  surge-alloy/500
+  varanium/128
+]
+category: turret
+research: rail-destroyer

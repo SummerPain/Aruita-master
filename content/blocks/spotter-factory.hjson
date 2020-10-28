@@ -1,0 +1,24 @@
+name: Spotter Factory
+description: Makes spotters(very fast small figthers).
+type: UnitFactory
+unitType: spotter
+size: 3
+produceTime: 200
+consumes: {
+  power: 1
+  items: {
+    items: [
+      silicon/6
+      titanium/10
+	  plastanium/1
+    ]
+  }
+}
+category: units
+research: wraith-factory
+requirements: [
+  silicon/40
+  titanium/20
+  plastanium/20 
+]
+maxSpawn: 10
