@@ -1,0 +1,34 @@
+name: Hovers Reconstructor
+description: "Makes hover units[spotter>kinektor]"
+type: Reconstructor
+
+size: 4
+produceTime: 500
+
+consumes: {
+      power: 2
+      items: {
+            items: [
+                {
+                    item: varanium
+                    amount: 20
+                },
+                {
+                    item: titanium
+                    amount: 50
+                },
+                silicon/35
+            ]
+      }
+}
+
+category: units
+research: aruita-basic-factory
+upgrades: [
+    [spotter, kinektor]
+]
+requirements: [
+  silicon/40
+  titanium/100
+  phase-fabric/32 
+]

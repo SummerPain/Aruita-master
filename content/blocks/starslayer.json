@@ -1,5 +1,6 @@
 {
 	"name": "Star slayer",
+	"type": "ChargeTurret",
 	"description": "Energy superpowered weapon",
 	"targetAir": true,
 	"targetGround": true,
@@ -14,7 +15,7 @@
 	"recoil": 10,
 	"outlineIcon": false,
 	"hasPower": true,
-	"shootSound" : "release",
+	"shootSound" : "laser",
 	"powerUse": 24,
 	"rotateSpeed": 0.01,
 	"range": 640,

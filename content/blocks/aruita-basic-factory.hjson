@@ -1,0 +1,26 @@
+name: Basic Aruita Air Factory
+description: Makes first type flyers
+type: UnitFactory
+size: 3
+produceTime: 200
+consumes: {
+  power: 1.5
+}
+plans: [
+    {
+        unit: spotter
+        requirements: [
+            silicon/8
+            plastanium/1
+            titanium/12
+        ]
+        time: 240
+    }
+]
+category: units
+research: command-center
+requirements: [
+  silicon/40
+  titanium/20
+  plastanium/20 
+]

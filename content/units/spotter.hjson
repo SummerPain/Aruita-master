@@ -1,38 +1,54 @@
-type: flyingUnit
+type: UnitEntity
 name: Spotter
 description: Small, weak but fast.
-speed: 0.32
+
+health: 56
+speed: 5.6
 flying: true
-health: 50
-engineOffset: 5
 range: 320
-weapon: {
-  name: small-rockets
-  length: 2
-  reload: 52
-  alternate: true
-  shootSound: small-rocket-shoot
-  bullet: {
-    "type": "MissileBulletType",
-    "lifetime": 200,
-    "speed": 2.2,
-	"damage": 9
-    "splashDamageRadius": 2,
-    "splashDamage": 8,
-    "frontColor": "1e5cfa",
-    "backColor": "ffffff",
-    "homingPower": 2,
-    "homingRange": 100,
-    "fragBullets": 1,
-    "fragBullet": {
-        "type": "BasicBulletType",
-        "lifetime": 32,
-        "speed": 0.85,
-		"damage": 1.6,
-		"homingPower": 0.75,
-		"homingRange": 40,
-		"pierce": true,
-		"frontColor": "ffffff",
-    }
-}
+accel: 0.03
+drag: 0.005
+hitSize: 10
+coreSize: 1
+
+engineOffset: 5
+engineSize: 1.2
+
+weapons: [{
+    x: 3
+    y: -1
+    top: false
+      name: small-rockets
+      reload: 52
+      recoil: 0
+      alternate: true
+      shootSound: small-rocket-shoot
+      bullet: {
+            type: MissileBulletType
+            width: 2
+            height: 3
+            drag: -0.1
+            keepVelocity: false
+            lifetime: 200
+            speed: 3
+
+            frontColor: 1e5cfa
+            backColor: ffffff
+
+            damage: 20
+            splashDamageRadius: 2
+            splashDamage: 10
+            homingPower: 1
+            homingRange: 100
+      }
+}]
+
+research: {
+    parent: aruita-basic-factory
+    requirements:
+    [
+        {item: varanium, amount: 500},
+        {item: plastanium, amount: 2500},
+        {item: silicon, amount: 5000}
+    ]
 }

@@ -1,6 +1,6 @@
 name: "aruita-mod"
 displayName: "[blue]Aruita"
 author: "Kurayami"
-description: "Mod has nice weapons, stairs to heaven, varanium"
+description: "Mod with nice weapons"
 version: "1.0"
-minGameVersion: "104"
+minGameVersion: "111"

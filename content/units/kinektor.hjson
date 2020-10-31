@@ -1,52 +1,68 @@
-type: hoverUnit
+type: UnitEntity
 name: Kinektor
 description: hardened long-range knockbacking hovering platform
-speed: 0.1
-hitSize: 32
-hitsizeTile: 32
-rotatespeed: 0.03
-baseRotateSpeed: 0.03
-flying: true
+
 health: 1600
+speed: 0.87
+accel: 0.05
+drag: 0.016
+flying: true
+hitSize: 20
+rotateSpeed: 1
+lowAltitude: true
+range: 300
+
 engineOffset: 15
-range: 0
-attackLength: 300
-mass: 16
-rotateWeapon: true
-weaponOffsetY: 5
 engineSize: 4
-weapon: {
-  name: kinektor-rail
-  inaccuracy: 5
-  shake: 1
-  recoil: 8
-  length: 12
-  reload: 150
-  alternate: true
-  shootSound: spark
-  targetDistance: 1
-  ignoreRotation: true
-  bullet: {
-    "type": "BasicBulletType",
-	"hitEffect": "lancerLaserChargeBegin",
-    "lifetime": 180,
-    "speed": 11,
-	"bulletSprite": "missile",
-	"bulletWidth": 6,
-	"bulletHeight": 16,
-	"damage": 48,
-	"hitSize": 10,
-	"knockback": 8,
-    "frontColor": "00ffff",
-    "backColor": "000ff0",
-    "fragBullets": 1,
-    "fragBullet": {
-		"type": "BasicBulletType",
-		"hitEffect": "bigShockwave",
-		"splashDamage": 30,
-		"splashDamageRadius": 32,
-        "lifetime": 1,
-        "speed": 0,
-	}
-}
+
+
+weapons: [{
+    rotate: true
+      top: true
+      mirror: false
+      x: 0
+      y: 1
+      name: kinektor-rail
+      inaccuracy: 5
+      shake: 0.4
+      recoil: 2
+      length: 12
+      reload: 150
+      shootSound: spark
+      targetDistance: 1
+      ignoreRotation: false
+      bullet: {
+            type: BasicBulletType
+            hitEffect: lancerLaserChargeBegin
+            lifetime: 180
+            speed: 11
+            bulletSprite: missile
+            bulletWidth: 7
+            bulletHeight: 20
+            shrinkY: 0
+            damage: 48
+            hitSize: 10
+            knockback: 10
+            frontColor: 00ffff
+            backColor: 000ff0
+            fragBullets: 1
+            fragBullet: {
+                type: BasicBulletType
+                hitEffect: bigShockwave
+                splashDamage: 30
+                splashDamageRadius: 32
+                lifetime: 1
+                speed: 0
+            }
+      }
+}]
+
+research: {
+    parent: hovers-reconstructor
+    requirements:
+    [
+        {item: varanium, amount: 500},
+        {item: plastanium, amount: 2500},
+        {item: silicon, amount: 5000}
+    ]
 }
