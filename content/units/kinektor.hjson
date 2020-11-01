@@ -77,12 +77,12 @@ weapons: [{
     shootY: 5
     bullet: {
         type: BasicBulletType
-        lifetime: 150
-        speed: 4.4
-        width: 2
-        height: 4
+        lifetime: 120
+        speed: 5
+        width: 3
+        height: 5
         shrinkY: 0
-        damage: 4
+        damage: 6
         hitSize: 3
 
     }
