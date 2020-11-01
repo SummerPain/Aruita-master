@@ -14,7 +14,7 @@ plans: [
             plastanium/1
             titanium/12
         ]
-        time: 240
+        time: 150
     }
 ]
 category: units

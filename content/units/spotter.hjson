@@ -2,7 +2,7 @@ type: UnitEntity
 name: Spotter
 description: Small, weak but fast.
 
-health: 56
+health: 64
 speed: 5.6
 flying: true
 range: 320
@@ -47,8 +47,8 @@ research: {
     parent: aruita-basic-factory
     requirements:
     [
-        {item: varanium, amount: 500},
-        {item: plastanium, amount: 2500},
-        {item: silicon, amount: 5000}
+        {item: titanium, amount: 10000},
+        {item: plastanium, amount: 2000},
+        {item: silicon, amount: 3000}
     ]
 }

@@ -11,13 +11,13 @@ consumes: {
             items: [
                 {
                     item: varanium
-                    amount: 20
+                    amount: 32
                 },
                 {
                     item: titanium
-                    amount: 50
+                    amount: 64
                 },
-                silicon/35
+                silicon/45
             ]
       }
 }

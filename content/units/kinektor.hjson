@@ -7,44 +7,50 @@ speed: 0.87
 accel: 0.05
 drag: 0.016
 flying: true
-hitSize: 20
-rotateSpeed: 1
+hitSize: 28
+rotateSpeed: 1.85
 lowAltitude: true
 range: 300
 
 engineOffset: 15
 engineSize: 4
 
+Ability: {ForceFieldAbility: {
+        radius: 40
+        regen: 0.2
+        max: 400
+        cooldown: 1
+}}
 
 weapons: [{
     rotate: true
       top: true
       mirror: false
       x: 0
-      y: 1
+      y: 0
       name: kinektor-rail
       inaccuracy: 5
       shake: 0.4
       recoil: 2
       length: 12
       reload: 150
-      shootSound: spark
-      targetDistance: 1
-      ignoreRotation: false
+      shootSound: laser
       bullet: {
-            type: BasicBulletType
+            type: MissileBulletType
             hitEffect: lancerLaserChargeBegin
-            lifetime: 180
+            homingPower: 0
+            trailColor: "00ffff"
+            lifetime: 240
             speed: 11
             bulletSprite: missile
-            bulletWidth: 7
-            bulletHeight: 20
+            width: 5
+            height: 25
             shrinkY: 0
-            damage: 48
+            damage: 32
             hitSize: 10
             knockback: 10
-            frontColor: 00ffff
-            backColor: 000ff0
+            frontColor: "00ffff"
+            backColor: "000ff0"
             fragBullets: 1
             fragBullet: {
                 type: BasicBulletType
@@ -55,7 +61,33 @@ weapons: [{
                 speed: 0
             }
       }
-}]
+},
+{
+    rotate: true
+    y: -12
+    x: 7
+    mirror: true
+    alternate: true
+    name: small-gatling
+    inaccuracy: 8
+    shake: 0
+    recoil: 1
+    length: 8
+    reload: 10
+    shootSound: shoot
+    bullet: {
+        type: BasicBulletType
+        lifetime: 240
+        speed: 4
+        width: 2
+        height: 4
+        shrinkY: 0
+        damage: 3
+        hitSize: 3
+
+    }
+}
+]
 
 research: {
     parent: hovers-reconstructor
@@ -63,6 +95,6 @@ research: {
     [
         {item: varanium, amount: 500},
         {item: plastanium, amount: 2500},
-        {item: silicon, amount: 5000}
+        {item: silicon, amount: 6400}
     ]
 }
