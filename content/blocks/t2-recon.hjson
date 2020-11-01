@@ -3,7 +3,7 @@ description: Aruita reconstructor T2
 type: Reconstructor
 
 size: 3
-constructTime: 1200
+constructTime: 1000
 itemCapacity: 40
 
 consumes: {

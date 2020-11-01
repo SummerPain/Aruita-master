@@ -13,7 +13,7 @@ lowAltitude: false
 canDrown: false
 accel: 0.04
 drag: 0.007
-hitSize: 10
+hitSize: 12
 crashDamageMultiplier: 0.2
 strafePenalty: 0.38
 

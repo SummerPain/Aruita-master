@@ -8,7 +8,7 @@ accel: 0.07
 drag: 0.005
 hovering: false
 flying: true
-hitSize: 16
+hitSize: 24
 lowAltitude: false
 range: 560
 maxRange: 640
