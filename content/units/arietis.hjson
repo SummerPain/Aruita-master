@@ -15,6 +15,7 @@ maxRange: 640
 crashDamageMultiplier: 2
 strafePenalty: 0.4
 targetGround: false
+commandLimit: 7
 
 engineOffset: 7
 engineSize: 2.2

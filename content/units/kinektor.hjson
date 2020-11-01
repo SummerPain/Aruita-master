@@ -14,7 +14,7 @@ lowAltitude: true
 range: 500
 rotateShooting: false
 crashDamageMultiplier: 4
-
+commandLimit: 19
 engineOffset: 15
 engineSize: 4
 
