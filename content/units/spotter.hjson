@@ -6,23 +6,37 @@ health: 64
 speed: 5.6
 flying: true
 range: 320
-accel: 0.03
-drag: 0.005
+maxRange: 400
+commandLimit: 16
+destructibleWreck: false
+lowAltitude: false
+canDrown: false
+accel: 0.04
+drag: 0.007
 hitSize: 10
-coreSize: 1
+crashDamageMultiplier: 0.2
+strafePenalty: 0.38
 
+drawCell: false
 engineOffset: 5
 engineSize: 1.2
+trailLength: 22
+trailX: 0
+trailY: 0
+trailScl: 10
 
 weapons: [{
     x: 3
-    y: -1
+    y: -2
     top: false
       name: small-rockets
       reload: 52
       recoil: 0
       alternate: true
       shootSound: small-rocket-shoot
+      shots: 4
+      shotDelay: 4
+      spacing: 2
       bullet: {
             type: MissileBulletType
             width: 2
@@ -30,14 +44,17 @@ weapons: [{
             drag: -0.1
             keepVelocity: false
             lifetime: 200
-            speed: 3
+            speed: 4
+            weaveScale: 4
+            weaveMag: 1
+            trailChance: 0.08
 
             frontColor: 1e5cfa
             backColor: ffffff
 
-            damage: 20
-            splashDamageRadius: 2
-            splashDamage: 10
+            damage: 6.5
+            splashDamageRadius: 4
+            splashDamage: 4
             homingPower: 1
             homingRange: 100
       }

@@ -3,17 +3,15 @@ name: The Dominion
 description: Missilse swarm
 health: 3200
 size: 4
-reload: 200
 range: 400
 ammoUseEffect: shellEjectBig
 inaccuracy: 20
-rotatespeed: 4
+rotateSpeed: 1
 heatColor: ff0000
 maxAmmo: 50
-recoil:8
 cooldown: 0.01
 restitution: 0.08
-ammo:
+ammoType:
 {
 
 graphite:

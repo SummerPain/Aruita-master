@@ -6,13 +6,13 @@
 	"targetGround": true,
 	"health": 4500,
 	"size": 6,
-	"reload": 800,
+
 	"inaccuracy": 0,
 	"chargeTime": 120,
     "chargeMaxDelay": 0,
 	"restitution": 0.01,
     "chargeEffects": 1,
-	"recoil": 10,
+
 	"outlineIcon": false,
 	"hasPower": true,
 	"shootSound" : "laser",

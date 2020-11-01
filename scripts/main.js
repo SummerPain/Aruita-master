@@ -1,0 +1,2 @@
+require("kinektor");
+require("starslayer");

@@ -7,36 +7,34 @@ speed: 0.87
 accel: 0.05
 drag: 0.016
 flying: true
-hitSize: 28
+hitSize: 30
 rotateSpeed: 1.85
 lowAltitude: true
 range: 300
+rotateShooting: false
 
 engineOffset: 15
 engineSize: 4
 
-Ability: {ForceFieldAbility: {
-        radius: 40
-        regen: 0.2
-        max: 400
-        cooldown: 1
-}}
 
 weapons: [{
     rotate: true
+    rotateSpeed: 5
       top: true
       mirror: false
       x: 0
       y: 0
       name: kinektor-rail
-      inaccuracy: 5
+      inaccuracy: 1.2
       shake: 0.4
       recoil: 2
-      length: 12
       reload: 150
       shootSound: laser
+      shootY: 7
+      ignoreRotation: false
       bullet: {
             type: MissileBulletType
+            shootEffect: hitYellowLaser
             hitEffect: lancerLaserChargeBegin
             homingPower: 0
             trailColor: "00ffff"
@@ -46,8 +44,8 @@ weapons: [{
             width: 5
             height: 25
             shrinkY: 0
-            damage: 32
-            hitSize: 10
+            damage: 30
+            hitSize: 7
             knockback: 10
             frontColor: "00ffff"
             backColor: "000ff0"
@@ -55,7 +53,7 @@ weapons: [{
             fragBullet: {
                 type: BasicBulletType
                 hitEffect: bigShockwave
-                splashDamage: 30
+                splashDamage: 24
                 splashDamageRadius: 32
                 lifetime: 1
                 speed: 0
@@ -64,17 +62,17 @@ weapons: [{
 },
 {
     rotate: true
-    y: -12
+    y: -11.4
     x: 7
     mirror: true
     alternate: true
     name: small-gatling
-    inaccuracy: 8
+    inaccuracy: 6
     shake: 0
     recoil: 1
-    length: 8
     reload: 10
     shootSound: shoot
+    shootY: 5
     bullet: {
         type: BasicBulletType
         lifetime: 240

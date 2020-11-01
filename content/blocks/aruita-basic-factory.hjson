@@ -2,7 +2,6 @@ name: Basic Aruita Air Factory
 description: Makes first type flyers
 type: UnitFactory
 size: 3
-produceTime: 200
 consumes: {
   power: 1.5
 }

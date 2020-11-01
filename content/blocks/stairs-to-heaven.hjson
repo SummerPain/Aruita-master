@@ -4,21 +4,21 @@ description: Bullet of world revolution
 health: 4400
 size: 8
 shootShake: 10
-reload: 1200
+
 range: 800
-powerUse: 8
+
 inaccuracy: 0
-rotatespeed: 0.032
+rotateSpeed: 0.032
 shootEffect: spawn 
 shootSound: heaven-shot
 maxAmmo:1
 outlineIcon: false
 heatColor: ff0000
-recoil: 16
+
 restitution: 0.003
 ammoUseEffect: teleportActivate
 cooldown: 0.002
-ammo:
+ammoType:
 {
 
 varanium-shell:

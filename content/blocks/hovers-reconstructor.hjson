@@ -3,7 +3,7 @@ description: "Makes hover units[spotter>kinektor]"
 type: Reconstructor
 
 size: 4
-produceTime: 500
+constructTime: 720
 
 consumes: {
       power: 2

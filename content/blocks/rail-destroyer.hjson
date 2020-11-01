@@ -8,22 +8,22 @@ chargeBeginEffect: bigShockwave
 health: 4400
 size: 6
 shootShake: 1
-reload: 240
+
 range: 496
 powerUse: 8
 inaccuracy: 0
-rotatespeed: 1
+rotateSpeed: 1
 outlineIcon:false
 shootEffect: lancerLaserShoot 
 shootSound: laser
-recoil: 10
+
 cooldown: 0.008
 restitution: 0.01
 heatColor: ff0000
 shootType: {
 	type: ArtilleryBulletType
-	bulletWidth: 14
-	bulletHeight: 44
+	width: 14
+	height: 44
 	collides: true
 	hitSize: 24
 	trailColor: 33b1ff
