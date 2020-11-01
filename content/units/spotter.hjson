@@ -1,12 +1,12 @@
 type: UnitEntity
 name: Spotter
-description: Small, weak but fast.
+description: (T1) Small, weak but fast.
 
-health: 64
+health: 80
 speed: 5.6
 flying: true
-range: 320
-maxRange: 400
+range: 400
+maxRange: 500
 commandLimit: 16
 destructibleWreck: false
 lowAltitude: false
@@ -43,7 +43,7 @@ weapons: [{
             height: 3
             drag: -0.1
             keepVelocity: false
-            lifetime: 200
+            lifetime: 180
             speed: 4
             weaveScale: 4
             weaveMag: 1
@@ -52,7 +52,7 @@ weapons: [{
             frontColor: 1e5cfa
             backColor: ffffff
 
-            damage: 6.5
+            damage: 6
             splashDamageRadius: 4
             splashDamage: 4
             homingPower: 1
@@ -61,11 +61,11 @@ weapons: [{
 }]
 
 research: {
-    parent: aruita-basic-factory
+    parent: t1-factory
     requirements:
     [
-        {item: titanium, amount: 10000},
-        {item: plastanium, amount: 2000},
+        {item: titanium, amount: 4800},
+        {item: metaglass, amount: 2000},
         {item: silicon, amount: 3000}
     ]
 }

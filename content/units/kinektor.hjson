@@ -1,17 +1,19 @@
 type: UnitEntity
 name: Kinektor
-description: hardened long-range knockbacking hovering platform
+description: (T3) hardened long-range knockbacking hovering platform with shield
 
-health: 1600
+health: 1200
+armor: 5
 speed: 0.87
-accel: 0.05
+accel: 0.06
 drag: 0.016
 flying: true
 hitSize: 30
 rotateSpeed: 1.85
 lowAltitude: true
-range: 300
+range: 500
 rotateShooting: false
+crashDamageMultiplier: 4
 
 engineOffset: 15
 engineSize: 4
@@ -19,7 +21,7 @@ engineSize: 4
 
 weapons: [{
     rotate: true
-    rotateSpeed: 5
+    rotateSpeed: 2
       top: true
       mirror: false
       x: 0
@@ -38,22 +40,22 @@ weapons: [{
             hitEffect: lancerLaserChargeBegin
             homingPower: 0
             trailColor: "00ffff"
-            lifetime: 240
-            speed: 11
+            lifetime: 120
+            speed: 11.5
             bulletSprite: missile
             width: 5
             height: 25
             shrinkY: 0
-            damage: 30
+            damage: 32
             hitSize: 7
-            knockback: 10
+            knockback: 11
             frontColor: "00ffff"
             backColor: "000ff0"
             fragBullets: 1
             fragBullet: {
                 type: BasicBulletType
                 hitEffect: bigShockwave
-                splashDamage: 24
+                splashDamage: 30
                 splashDamageRadius: 32
                 lifetime: 1
                 speed: 0
@@ -67,20 +69,20 @@ weapons: [{
     mirror: true
     alternate: true
     name: small-gatling
-    inaccuracy: 6
+    inaccuracy: 4.8
     shake: 0
     recoil: 1
-    reload: 10
+    reload: 8
     shootSound: shoot
     shootY: 5
     bullet: {
         type: BasicBulletType
-        lifetime: 240
-        speed: 4
+        lifetime: 150
+        speed: 4.4
         width: 2
         height: 4
         shrinkY: 0
-        damage: 3
+        damage: 4
         hitSize: 3
 
     }
@@ -88,7 +90,7 @@ weapons: [{
 ]
 
 research: {
-    parent: hovers-reconstructor
+    parent: t3-recon
     requirements:
     [
         {item: varanium, amount: 500},

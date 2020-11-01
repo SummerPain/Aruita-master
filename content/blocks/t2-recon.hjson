@@ -1,0 +1,33 @@
+name: T2 Reconstructor
+description: Aruita reconstructor T2
+type: Reconstructor
+
+size: 3
+constructTime: 1200
+itemCapacity: 40
+
+consumes: {
+  power: 4
+  items: { items: [
+  {
+    item: thorium
+    amount: 20
+  },
+  {
+    item: titanium
+    amount: 40
+  },
+    silicon/32
+  ]}
+}
+
+category: units
+  research: t1-factory
+  upgrades: [
+    [spotter, arietis]
+]
+requirements: [
+  silicon/64
+  titanium/120
+  thorium/40
+]

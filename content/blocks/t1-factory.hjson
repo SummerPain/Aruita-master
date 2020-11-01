@@ -1,17 +1,16 @@
-name: Basic Aruita Air Factory
-description: Makes first type flyers
+name: T1 Aruita Factory
+description: Makes T1 Units
 type: UnitFactory
 size: 3
 consumes: {
-  power: 1.5
+  power: 2.5
 }
 plans: [
     {
         unit: spotter
         requirements: [
-            silicon/8
-            plastanium/1
-            titanium/12
+            silicon/6
+            titanium/10
         ]
         time: 150
     }
@@ -20,6 +19,6 @@ category: units
 research: command-center
 requirements: [
   silicon/40
-  titanium/20
-  plastanium/20 
+  titanium/80
+  metaglass/20
 ]

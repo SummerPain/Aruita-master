@@ -1,0 +1,61 @@
+type: UnitEntity
+name: Arietis
+description: (T2) rapid-fire flying unit, dont targets ground enemies
+
+health: 500
+speed: 3.2
+accel: 0.07
+drag: 0.02
+hovering: false
+flying: true
+hitSize: 16
+lowAltitude: false
+range: 560
+maxRange: 640
+crashDamageMultiplier: 2
+strafePenalty: 0.38
+targetGround: false
+
+engineOffset: 7
+engineSize: 2.2
+drawCell: false
+
+weapons: [{
+  rotate: false
+  mirror: false
+  x: 0
+  y: -3.5
+  name: arietis-gatling
+  inaccuracy: 2.4
+  recoil: 1
+  reload: 5
+  shootSound: shoot
+  shootY: 7
+  bullet: {
+    type: BasicBulletType
+    shootEffect: shootSmall
+    hitEffect: hitBulletSmall
+    lifetime: 120
+    speed: 9
+    bulletSprite: bullet
+    width: 5
+    height: 15
+    shrinkY: 0
+    damage: 15
+    hitSize: 7
+    knockback: 0.25
+    frontColor: "ffffff"
+    backColor: "000ff0"
+  }
+}
+]
+
+research: {
+parent: t2-recon
+requirements:
+[
+  {item: titanium, amount: 6400},
+  {item: thorium, amount: 1500},
+  {item: silicon, amount: 4000}
+]
+}
