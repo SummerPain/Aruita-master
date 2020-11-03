@@ -4,41 +4,56 @@ description: Bullet of world revolution
 health: 4400
 size: 8
 shootShake: 10
-
 range: 800
 
 inaccuracy: 0
-rotateSpeed: 0.032
-shootEffect: spawn 
+rotateSpeed: 0.075
+
 shootSound: heaven-shot
 maxAmmo:1
 outlineIcon: false
 heatColor: ff0000
 
-restitution: 0.003
+restitution: 0.015
 ammoUseEffect: teleportActivate
-cooldown: 0.002
-ammoType:
+cooldown: 0.003
+				recoilAmount: 8
+reloadTime: 1500
+
+ammoTypes:
 {
 
 varanium-shell:
 {
-	"type": "ArtilleryBulletType"
-	bulletWidth: 34
-	bulletHeight: 2800
+	type: LaserBulletType
+				length: 2400
+width: 16
+lengthFalloff: 1
+sideLength: 40
+sideWidth: 0.5
+sideAngle: 90
+lightningSpacing: 60
+lightningDelay: 0.2
+largeHit: false
+drawSize: 2400
+colors: ["57a8ff"]
+lightningColor: 57a8ff
+lightningAngleRand: 60
+
 	collides: true
 	hitSize: 32
-	trailColor: 03b6fc
 	collidesAir: true
-    frontColor: 00496b
-    backColor: 08b1ff
-	speed: 24
-	pierce:true
+
+	pierce: true
 	damage: 2400
-	hitEffect: teleport  
-	splashDamageRadius: 16
+	splashDamageRadius: 20
 	splashDamage: 600
-	lifetime: 180
+
+	smokeEffect: greenLaserChargeSmall
+	shootEffect: railShoot
+	hitEffect: hitLaser
+
+	lifetime: 50
 	reloadMultiplier: 1
 	hitSound:laser
 	ammoMultiplier: 1

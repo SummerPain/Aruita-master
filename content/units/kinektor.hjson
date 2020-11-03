@@ -2,7 +2,7 @@ type: UnitEntity
 name: Kinektor
 description: (T3) hardened long-range knockbacking hovering platform with shield
 
-health: 1200
+health: 1000
 armor: 5
 speed: 0.87
 accel: 0.06
@@ -46,8 +46,10 @@ weapons: [{
             width: 5
             height: 25
             shrinkY: 0
-            damage: 32
             hitSize: 7
+            damage: 30
+            splashDamage: 20
+            splashDamageRadius: 32
             knockback: 11
             frontColor: "00ffff"
             backColor: "000ff0"
@@ -55,8 +57,8 @@ weapons: [{
             fragBullet: {
                 type: BasicBulletType
                 hitEffect: bigShockwave
-                splashDamage: 30
-                splashDamageRadius: 32
+                splashDamage: 0
+                splashDamageRadius: 0
                 lifetime: 1
                 speed: 0
             }
