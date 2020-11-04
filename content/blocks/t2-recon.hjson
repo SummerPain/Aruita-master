@@ -11,13 +11,13 @@ consumes: {
   items: { items: [
   {
     item: thorium
-    amount: 20
+    amount: 16
   },
   {
     item: titanium
-    amount: 40
+    amount: 30
   },
-    silicon/32
+    silicon/20
   ]}
 }
 

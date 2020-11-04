@@ -42,7 +42,7 @@ weapons: [{
     width: 5
     height: 15
     shrinkY: 0
-    damage: 11
+    damage: 14
     hitSize: 7
     collidesGround: false
     knockback: 0.25

@@ -14,11 +14,10 @@ maxAmmo:1
 outlineIcon: false
 heatColor: ff0000
 
-restitution: 0.015
-ammoUseEffect: teleportActivate
+restitution: 0.03
 cooldown: 0.003
 				recoilAmount: 8
-reloadTime: 1500
+reloadTime: 1000
 
 ammoTypes:
 {
@@ -26,19 +25,21 @@ ammoTypes:
 varanium-shell:
 {
 	type: LaserBulletType
-				length: 2400
-width: 16
-lengthFalloff: 1
-sideLength: 40
-sideWidth: 0.5
+	length: 2400
+	width: 48
+lengthFalloff: 0.5
+sideLength: 180
+sideWidth: 2.3
 sideAngle: 90
-lightningSpacing: 60
-lightningDelay: 0.2
+lightningSpacing: 88
+lightningDelay: 0.3
 largeHit: false
 drawSize: 2400
-colors: ["57a8ff"]
+colors: ["ac80e0","cae2ed","57a8ff"]
 lightningColor: 57a8ff
-lightningAngleRand: 60
+lightningAngleRand: 10
+lightningLength: 40
+lightningLengthRand: 20
 
 	collides: true
 	hitSize: 32
@@ -46,8 +47,6 @@ lightningAngleRand: 60
 
 	pierce: true
 	damage: 2400
-	splashDamageRadius: 20
-	splashDamage: 600
 
 	smokeEffect: greenLaserChargeSmall
 	shootEffect: railShoot

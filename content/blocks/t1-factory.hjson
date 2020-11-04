@@ -9,7 +9,7 @@ plans: [
     {
         unit: spotter
         requirements: [
-            silicon/6
+            silicon/5
             titanium/10
         ]
         time: 150

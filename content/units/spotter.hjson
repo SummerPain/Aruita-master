@@ -2,7 +2,7 @@ type: UnitEntity
 name: Spotter
 description: (T1) Small, weak but fast.
 
-health: 80
+health: 90
 speed: 5.6
 flying: true
 range: 400
@@ -44,7 +44,7 @@ weapons: [{
             drag: -0.1
             keepVelocity: false
             lifetime: 180
-            speed: 4
+            speed: 5.2
             weaveScale: 4
             weaveMag: 1
             trailChance: 0.08
@@ -52,7 +52,7 @@ weapons: [{
             frontColor: 1e5cfa
             backColor: ffffff
 
-            damage: 6
+            damage: 7
             splashDamageRadius: 4
             splashDamage: 4
             homingPower: 1

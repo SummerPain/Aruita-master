@@ -47,8 +47,8 @@ weapons: [{
             height: 25
             shrinkY: 0
             hitSize: 7
-            damage: 30
-            splashDamage: 20
+            damage: 40
+            splashDamage: 24
             splashDamageRadius: 32
             knockback: 11
             frontColor: "00ffff"
