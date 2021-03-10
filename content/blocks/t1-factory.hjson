@@ -17,6 +17,7 @@ plans: [
 ]
 category: units
 research: command-center
+
 requirements: [
   silicon/40
   titanium/80

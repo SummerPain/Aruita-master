@@ -1,4 +1,4 @@
-type: ChargeTurret
+type: PowerTurret
 name: Rail Destroyer
 description: Penetrating
 chargeTime: 60
@@ -22,7 +22,7 @@ restitution: 0.01
 heatColor: ff0000
 shootType: {
 	type: ArtilleryBulletType
-	width: 14
+	width: 12
 	height: 44
 	collides: true
 	hitSize: 24
@@ -31,14 +31,17 @@ shootType: {
     frontColor: ffbd08
     backColor: ffbd08
 	speed: 40
-	pierce:true
-	damage: 480
+	pierce: false
+	damage: 240
 	hitEffect: landShock 
 	lifetime: 180
 	reloadMultiplier: 1
 	hitSound:spark
 	ammoMultiplier: 10
+	splashDamageRadius: 22
+    splashDamage: 100
 }
+reloadTime: 60,
 requirements: [
   phase-fabric/200
   titanium/400

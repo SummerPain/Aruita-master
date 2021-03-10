@@ -1,4 +1,4 @@
-type: UnitEntity
+type: flying
 name: Arietis
 description: (T2) interceptor, dont targets ground enemies
 
@@ -10,7 +10,7 @@ hovering: false
 flying: true
 hitSize: 24
 lowAltitude: false
-range: 560
+range: 400
 maxRange: 640
 crashDamageMultiplier: 2
 strafePenalty: 0.4
@@ -36,7 +36,7 @@ weapons: [{
     type: BasicBulletType
     shootEffect: shootSmall
     hitEffect: hitBulletSmall
-    lifetime: 100
+    lifetime: 90
     speed: 9
     bulletSprite: bullet
     width: 5

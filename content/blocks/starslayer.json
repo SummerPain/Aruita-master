@@ -1,29 +1,46 @@
 {
 	"name": "Star slayer",
-	"type": "ChargeTurret",
+	"type": "PowerTurret",
 	"description": "Energy superpowered weapon",
-	"targetAir": true,
+	"targetAir": false,
 	"targetGround": true,
 	"health": 4500,
 	"size": 6,
 
 	"inaccuracy": 0,
-	"chargeTime": 120,
+	"chargeTime": 60,
     "chargeMaxDelay": 0,
-	"restitution": 0.01,
-    "chargeEffects": 1,
+	"restitution": 0.1,
+	"recoilAmount": 2,
+    "chargeEffects": 10,
 
 	"outlineIcon": false,
+	"heatColor": "ff0000",
 	"hasPower": true,
 	"shootSound" : "laser",
+	"shootType": {
+		"speed": 24,
+		"damage": 150,
+		"width": 8,
+		"height": 50,
+		"pierce": true,
+		"hitSize": 8,
+		"lifetime": 180
+	},
+	"reloadTime": 240,
+
+	"chargeEffect": "melting",
+	"chargeBeginEffect": "teleport",
+	"chargeSound": "cutter",
+
 	"powerUse": 24,
-	"rotateSpeed": 0.01,
+	"rotateSpeed": 0.3,
 	"range": 640,
 	"requirements": [
 		{ "item": "surge-alloy", "amount": 120 },
 		{ "item": "silicon", "amount": 250 },
 		{ "item": "lead", "amount": 120 },
-		{ "item": "thorium", "amount": 250 },
+		{ "item": "thorium", "amount": 250 }
 	],
 	"category": "turret",
 	"research": "meltdown"

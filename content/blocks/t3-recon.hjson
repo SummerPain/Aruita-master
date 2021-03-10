@@ -1,36 +1,43 @@
-name: T3 Reconstructor
-description: Aruita reconstructor T3
-type: Reconstructor
+{
+    "name": "T3 Reconstructor",
+    "description": "Aruita reconstructor T3",
+    "type": "Reconstructor",
 
-size: 5
-constructTime: 1800
-itemCapacity: 64
+    "size": 5,
+    "constructTime": 1800,
+    "itemCapacity": 64,
+    "unitCapModifier": 2,
 
-consumes: {
-      power: 6
-      items: {
-            items: [
-                {
-                    item: varanium
-                    amount: 32
-                },
-                {
-                    item: titanium
-                    amount: 64
-                },
-                silicon/60
-            ]
-      }
+    "consumes": {
+        "power": 6,
+        "items": {
+                "items": [
+                    {
+                        "item": "varanium",
+                        "amount": 32
+                    },
+                    {
+                        "item": "titanium",
+                        "amount": 64
+                    },
+                    {
+                        "item": "silicon",
+                        "amount": 60
+                    }
+                ]
+        }
+    },
+
+    "category": "units",
+    "research": "t2-recon",
+    
+    "upgrades": [
+        [arietis, kinektor]
+    ],
+    "requirements": [
+    silicon/100
+    titanium/240
+    thorium/64
+    phase-fabric/48
+    ]
 }
-
-category: units
-research: t2-recon
-upgrades: [
-    [arietis, kinektor]
-]
-requirements: [
-  silicon/100
-  titanium/240
-  thorium/64
-  phase-fabric/48
-]

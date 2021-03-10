@@ -9,14 +9,8 @@ itemCapacity: 40
 consumes: {
   power: 4
   items: { items: [
-  {
-    item: thorium
-    amount: 16
-  },
-  {
-    item: titanium
-    amount: 30
-  },
+    thorium/16
+    titanium/32
     silicon/20
   ]}
 }

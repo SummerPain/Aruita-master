@@ -11,6 +11,7 @@ maxAmmo: 24
 cooldown: 0.01
 restitution: 0.08
 reloadTime: 480
+shootCone: 60
 ammoTypes:
 {
 
@@ -44,7 +45,7 @@ graphite:
 		speed: 10
 		width: 6
 		height: 14
-		homingPower: 0.05
+		homingPower: 0.05f
 		homingRange: 800
 		lifetime: 20
 		hitEffect: bubble

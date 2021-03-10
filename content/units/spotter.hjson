@@ -1,4 +1,4 @@
-type: UnitEntity
+type: flying
 name: Spotter
 description: (T1) Small, weak but fast.
 
@@ -16,6 +16,7 @@ drag: 0.007
 hitSize: 12
 crashDamageMultiplier: 0.2
 strafePenalty: 0.38
+circleTarget: true
 
 drawCell: false
 engineOffset: 5
@@ -43,7 +44,7 @@ weapons: [{
             height: 3
             drag: -0.1
             keepVelocity: false
-            lifetime: 180
+            lifetime: 80
             speed: 5.2
             weaveScale: 4
             weaveMag: 1
@@ -52,7 +53,7 @@ weapons: [{
             frontColor: 1e5cfa
             backColor: ffffff
 
-            damage: 7
+            damage: 8
             splashDamageRadius: 4
             splashDamage: 4
             homingPower: 1
