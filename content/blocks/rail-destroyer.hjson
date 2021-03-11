@@ -1,8 +1,8 @@
 type: PowerTurret
 name: Rail Destroyer
 description: Penetrating
-chargeTime: 60
-chargeEffects: 24
+chargeTime: 40
+chargeEffects: 18
 chargeEffect: lancerLaserCharge
 chargeBeginEffect: bigShockwave
 health: 4400

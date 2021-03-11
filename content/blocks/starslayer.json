@@ -9,9 +9,9 @@
 
 	"inaccuracy": 0,
 	"chargeTime": 60,
-    "chargeMaxDelay": 0,
-	"restitution": 0.1,
-	"recoilAmount": 2,
+    "chargeMaxDelay": 15,
+	"restitution": 0.04,
+	"recoilAmount": 3,
     "chargeEffects": 10,
 
 	"outlineIcon": false,

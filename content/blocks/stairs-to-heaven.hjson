@@ -6,11 +6,18 @@ size: 8
 shootShake: 10
 range: 800
 
+chargeTime: 270
+chargeMaxDelay: 270
+chargeEffects: 135
+chargeEffect: shieldApply
+chargeBeginEffect: shootBigSmoke2
+chargeSound: pulse
+
 inaccuracy: 0
 rotateSpeed: 0.075
 
 shootSound: heaven-shot
-maxAmmo:1
+maxAmmo: 1
 outlineIcon: false
 heatColor: ff0000
 

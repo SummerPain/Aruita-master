@@ -12,6 +12,11 @@ cooldown: 0.01
 restitution: 0.08
 reloadTime: 480
 shootCone: 60
+
+chargeTime: 0
+chargeMaxDelay: 0
+chargeBeginEffect: shootBigSmoke2
+
 ammoTypes:
 {
 
@@ -132,7 +137,7 @@ plastanium:
 requirements: [
   silicon/320
   titanium/300
-  surge-alloy/200
+  surge-alloy/100
 ]
 category: turret
 research: swarmer
