@@ -6,13 +6,12 @@ health: 90
 speed: 5.6
 flying: true
 range: 400
-maxRange: 500
-commandLimit: 16
+maxRange: 640
 destructibleWreck: false
 lowAltitude: false
 canDrown: false
 accel: 0.04
-drag: 0.007
+drag: 0.01
 hitSize: 12
 crashDamageMultiplier: 0.2
 strafePenalty: 0.38

@@ -10,7 +10,7 @@ size: 6
 shootShake: 1
 
 range: 496
-powerUse: 8
+powerUse: 16
 inaccuracy: 0
 rotateSpeed: 1
 outlineIcon:false

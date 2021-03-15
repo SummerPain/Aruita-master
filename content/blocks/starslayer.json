@@ -33,7 +33,7 @@
 	"chargeBeginEffect": "teleport",
 	"chargeSound": "cutter",
 
-	"powerUse": 24,
+	"powerUse": 30,
 	"rotateSpeed": 0.3,
 	"range": 640,
 	"requirements": [

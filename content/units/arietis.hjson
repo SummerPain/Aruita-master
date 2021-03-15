@@ -11,7 +11,7 @@ flying: true
 hitSize: 24
 lowAltitude: false
 range: 400
-maxRange: 640
+maxRange: 800
 crashDamageMultiplier: 2
 strafePenalty: 0.4
 targetGround: false
@@ -22,7 +22,7 @@ engineSize: 2.2
 drawCell: false
 
 weapons: [{
-  rotate: false
+  rotate: true
   mirror: false
   x: 0
   y: -3.5
