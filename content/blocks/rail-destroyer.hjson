@@ -5,7 +5,7 @@ chargeTime: 80
 chargeEffects: 30
 chargeSound: lasercharge
 chargeEffect: lancerLaserCharge
-chargeBeginEffect: Shockwave
+chargeBeginEffect: shockwave
 chargeMaxDelay: 55
 health: 12000
 size: 6
