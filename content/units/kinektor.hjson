@@ -2,7 +2,7 @@ type: flying
 name: Kinektor
 description: (T3) hardened long-range knockbacking hovering platform with shield
 
-health: 1000
+health: 800
 armor: 5
 speed: 0.87
 accel: 0.06

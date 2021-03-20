@@ -10,7 +10,7 @@ heatColor: ff0000
 maxAmmo: 24
 cooldown: 0.01
 restitution: 0.08
-reloadTime: 480
+reloadTime: 360
 shootCone: 60
 
 chargeTime: 0
@@ -39,7 +39,7 @@ graphite:
 	reloadMultiplier: 1.5
 	hitSound:missile
 	ammoMultiplier: 1
-	fragBullets:4
+	fragBullets:5
 	fragBullet:
 	{
 		type: MissileBulletType
@@ -96,7 +96,7 @@ plastanium:
 	reloadMultiplier: 1.8
 	hitSound:missile
 	ammoMultiplier: 2
-	fragBullets:4
+	fragBullets:6
 	fragBullet:
 	{
 		type: MissileBulletType
@@ -135,7 +135,7 @@ plastanium:
 }
 }
 requirements: [
-  silicon/320
+  silicon/240
   titanium/300
   surge-alloy/100
 ]

@@ -1,51 +1,58 @@
 type: PowerTurret
 name: Rail Destroyer
-description: Penetrating
-chargeTime: 40
-chargeEffects: 18
+description: Heavy damaging bolt
+chargeTime: 80
+chargeEffects: 30
+chargeSound: lasercharge
 chargeEffect: lancerLaserCharge
-chargeBeginEffect: bigShockwave
-health: 4400
+chargeBeginEffect: Shockwave
+chargeMaxDelay: 55
+health: 12000
 size: 6
-shootShake: 1
+shootShake: 2
 
-range: 496
-powerUse: 16
+range: 500
+powerUse: 12
 inaccuracy: 0
-rotateSpeed: 1
-outlineIcon:false
+rotateSpeed: 0.85
+outlineIcon:true
 shootEffect: lancerLaserShoot 
-shootSound: laser
+shootSound: laserBlast
+recoilAmount: 8
 
-cooldown: 0.008
 restitution: 0.01
 heatColor: ff0000
 shootType: {
-	type: ArtilleryBulletType
-	width: 12
-	height: 44
+	type: MissileBulletType
+	width: 8
+	height: 40
+	shrinkY: 0
 	collides: true
-	hitSize: 24
-	trailColor: 33b1ff
+	hitSize: 9
+	trailColor: cfadff
+	trailChance: 1
 	collidesAir: true
-    frontColor: ffbd08
-    backColor: ffbd08
-	speed: 40
+    frontColor: 6c03ff
+    backColor: cfadff
+	speed: 18
 	pierce: false
 	damage: 240
 	hitEffect: landShock 
-	lifetime: 180
+	lifetime: 60
 	reloadMultiplier: 1
-	hitSound:spark
 	ammoMultiplier: 10
 	splashDamageRadius: 22
+	reflectable: false
     splashDamage: 100
+	homingPower: 0
+	buildingDamageMultiplier: 2
 }
-reloadTime: 60,
+reloadTime: 480,
 requirements: [
-  phase-fabric/200
-  titanium/400
-  surge-alloy/300
+  thorium/250
+  titanium/250
+  phase-fabric/150
+  plastanium/100
 ]
 category: turret
 research: meltdown

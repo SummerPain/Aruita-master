@@ -7,7 +7,6 @@ speed: 5.6
 flying: true
 range: 400
 maxRange: 640
-destructibleWreck: false
 lowAltitude: false
 canDrown: false
 accel: 0.04
@@ -53,7 +52,7 @@ weapons: [{
             backColor: ffffff
 
             damage: 8
-            splashDamageRadius: 4
+            splashDamageRadius: 6
             splashDamage: 4
             homingPower: 1
             homingRange: 100

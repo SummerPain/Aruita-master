@@ -20,11 +20,11 @@
 	"shootSound" : "laser",
 	"shootType": {
 		"speed": 24,
-		"damage": 150,
-		"width": 8,
-		"height": 50,
+		"damage": 200,
+		"width": 10,
+		"height": 100,
 		"pierce": true,
-		"hitSize": 8,
+		"hitSize": 10,
 		"lifetime": 180
 	},
 	"reloadTime": 240,
