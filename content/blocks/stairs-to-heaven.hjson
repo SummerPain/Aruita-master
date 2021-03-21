@@ -1,20 +1,20 @@
 type: ItemTurret
 name: Stairs to Heaven
 description: Bullet of world revolution
-health: 4400
+health: 20000
 size: 8
 shootShake: 10
 range: 800
 
-chargeTime: 270
-chargeMaxDelay: 270
-chargeEffects: 135
+chargeTime: 240
+chargeMaxDelay: 240
+chargeEffects: 140
 chargeEffect: shieldApply
-chargeBeginEffect: shootBigSmoke2
+chargeBeginEffect: blastExplosion
 chargeSound: pulse
 
 inaccuracy: 0
-rotateSpeed: 0.075
+rotateSpeed: 0.09
 
 shootSound: heaven-shot
 maxAmmo: 1
@@ -38,8 +38,8 @@ lengthFalloff: 0.5
 sideLength: 180
 sideWidth: 2.3
 sideAngle: 90
-lightningSpacing: 88
-lightningDelay: 0.3
+lightningSpacing: 60
+lightningDelay: 0.2
 largeHit: false
 drawSize: 2400
 colors: ["ac80e0","cae2ed","57a8ff"]
@@ -53,7 +53,7 @@ lightningLengthRand: 20
 	collidesAir: true
 
 	pierce: true
-	damage: 2400
+	damage: 5000
 
 	smokeEffect: greenLaserChargeSmall
 	shootEffect: railShoot

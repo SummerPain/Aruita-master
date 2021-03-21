@@ -29,7 +29,7 @@ weapons: [{
   name: arietis-gatling
   inaccuracy: 3
   recoil: 1
-  reload: 5
+  reload: 6
   shootSound: shoot
   shootY: 7
   bullet: {
@@ -42,7 +42,7 @@ weapons: [{
     width: 5
     height: 15
     shrinkY: 0
-    damage: 16
+    damage: 20
     hitSize: 7
     collidesGround: false
     knockback: 0.25

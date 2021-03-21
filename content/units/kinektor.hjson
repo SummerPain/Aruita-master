@@ -47,10 +47,10 @@ weapons: [{
             height: 25
             shrinkY: 0
             hitSize: 7
-            damage: 40
-            splashDamage: 24
+            damage: 50
+            splashDamage: 50
             splashDamageRadius: 32
-            knockback: 11
+            knockback: 12
             frontColor: "00ffff"
             backColor: "000ff0"
             fragBullets: 1

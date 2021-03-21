@@ -2,14 +2,14 @@ type: flying
 name: Spotter
 description: (T1) Small, weak but fast.
 
-health: 90
-speed: 5.6
+health: 80
+speed: 7
 flying: true
 range: 400
 maxRange: 640
 lowAltitude: false
 canDrown: false
-accel: 0.04
+accel: 0.05
 drag: 0.01
 hitSize: 12
 crashDamageMultiplier: 0.2

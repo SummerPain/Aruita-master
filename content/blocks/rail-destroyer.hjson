@@ -11,13 +11,13 @@ health: 12000
 size: 6
 shootShake: 2
 
-range: 500
+range: 560
 powerUse: 12
 inaccuracy: 0
-rotateSpeed: 0.85
+rotateSpeed: 0.92
 outlineIcon:true
 shootEffect: lancerLaserShoot 
-shootSound: laserBlast
+shootSound: laserblast
 recoilAmount: 8
 
 restitution: 0.01
@@ -36,14 +36,14 @@ shootType: {
     backColor: cfadff
 	speed: 18
 	pierce: false
-	damage: 240
+	damage: 640
 	hitEffect: landShock 
 	lifetime: 60
 	reloadMultiplier: 1
 	ammoMultiplier: 10
 	splashDamageRadius: 22
 	reflectable: false
-    splashDamage: 100
+    splashDamage: 400
 	homingPower: 0
 	buildingDamageMultiplier: 2
 }

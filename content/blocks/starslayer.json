@@ -20,7 +20,7 @@
 	"shootSound" : "laser",
 	"shootType": {
 		"speed": 24,
-		"damage": 200,
+		"damage": 320,
 		"width": 10,
 		"height": 100,
 		"pierce": true,
