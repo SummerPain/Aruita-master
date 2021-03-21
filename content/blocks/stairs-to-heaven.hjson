@@ -24,7 +24,7 @@ heatColor: ff0000
 restitution: 0.03
 cooldown: 0.003
 				recoilAmount: 8
-reloadTime: 1000
+reloadTime: 1500
 
 ammoTypes:
 {
