@@ -9,8 +9,8 @@ hasItems: true
 craftTime: 5
 updateEffect: steam
 consumes: {
-  power: 8
-  liquid: water/0.3
+  power: 6
+  liquid: water/0.5
 }
 requirements: [
   lead/150
