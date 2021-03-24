@@ -1,0 +1,24 @@
+type: GenericCrafter
+name: Sand miner
+description: Needs to be supplied with water. Mines deep into ground with varanium-headed drill and crushes soil into sand.
+size: 4
+health: 1000
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 5
+updateEffect: steam
+consumes: {
+  power: 8
+  liquid: water/0.3
+}
+requirements: [
+  lead/150
+  titanium/200
+  copper/120
+  silicon/40
+  varanium/20
+]
+category: production
+research: blast-drill
+outputItem: sand/1
