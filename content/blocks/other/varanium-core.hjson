@@ -17,4 +17,5 @@ size: 6
 unitCapModifier: 24
 researchCostMultiplier: 0.08
 
+research: core-nucleus
 unitType: zeta
