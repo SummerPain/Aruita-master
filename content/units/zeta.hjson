@@ -70,13 +70,3 @@ weapons: [{
   }
 }
 ]
-
-research: {
-parent: t2-recon
-requirements:
-[
-  {item: titanium, amount: 6400},
-  {item: thorium, amount: 1500},
-  {item: silicon, amount: 4000}
-]
-}
