@@ -26,8 +26,8 @@ commandLimit: 8
 mineTier: 3
 buildSpeed: 2.5
 
-engineOffset: 7
-engineSize: 2.2
+engineOffset: 8
+engineSize: 2.3
 drawCell: true
 
 weapons: [{
@@ -41,7 +41,7 @@ weapons: [{
   recoil: 1
   reload: 11
   shootSound: shoot
-  shootY: 6
+  shootY: 4
   bullet: {
     type: MissileBulletType
 

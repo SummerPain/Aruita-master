@@ -84,7 +84,7 @@ weapons: [{
         width: 3
         height: 5
         shrinkY: 0
-        damage: 6
+        damage: 8
         hitSize: 3
 
     }

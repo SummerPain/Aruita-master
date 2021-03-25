@@ -14,15 +14,15 @@
                 "items": [
                     {
                         "item": "varanium",
-                        "amount": 32
+                        "amount": 40
                     },
                     {
                         "item": "titanium",
-                        "amount": 64
+                        "amount": 80
                     },
                     {
                         "item": "silicon",
-                        "amount": 60
+                        "amount": 100
                     }
                 ]
         }
