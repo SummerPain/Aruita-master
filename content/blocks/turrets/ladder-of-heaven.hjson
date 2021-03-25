@@ -1,5 +1,5 @@
 type: ItemTurret
-name: Stairs to Heaven
+name: Ladder of heaven
 description: Bullet of world revolution
 health: 20000
 size: 8
@@ -23,7 +23,7 @@ heatColor: ff0000
 
 restitution: 0.03
 cooldown: 0.003
-				recoilAmount: 8
+recoilAmount: 12
 reloadTime: 1500
 
 ammoTypes:

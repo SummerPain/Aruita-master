@@ -16,7 +16,7 @@ crashDamageMultiplier: 0.2
 strafePenalty: 0.38
 circleTarget: true
 
-drawCell: false
+drawCell: true
 engineOffset: 5
 engineSize: 1.2
 trailLength: 22
