@@ -1,0 +1,20 @@
+type: CoreBlock
+name: Varanium core
+requirements: [
+  copper/4000
+  lead/4000
+  titanium/5000
+  silicon/5000
+  thorium/5000
+  varanium/2000
+]
+category: effect
+
+health: 15000
+itemCapacity: 25000
+size: 6
+
+unitCapModifier: 24
+researchCostMultiplier: 0.08
+
+unitType: zeta

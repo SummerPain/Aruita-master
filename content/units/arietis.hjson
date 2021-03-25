@@ -19,7 +19,7 @@ commandLimit: 7
 
 engineOffset: 7
 engineSize: 2.2
-drawCell: false
+drawCell: true
 
 weapons: [{
   rotate: true

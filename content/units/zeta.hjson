@@ -1,0 +1,82 @@
+type: flying
+name: Zeta
+description: Varanium core drone.
+
+hovering: false
+flying: true
+lowAltitude: false
+crashDamageMultiplier: 2
+
+health: 640
+hitSize: 20
+
+speed: 5
+rotateSpeed: 20
+accel: 0.12
+drag: 0.05
+strafePenalty: 0.4
+
+range: 400
+maxRange: 800
+itemCapacity: 100
+
+targetGround: true
+rotateShooting: false
+commandLimit: 8
+mineTier: 3
+buildSpeed: 2.5
+
+engineOffset: 7
+engineSize: 2.2
+drawCell: true
+
+weapons: [{
+  rotate: true
+  mirror: true
+  x: 8.5
+  y: 1.5
+  top: false
+  name: zeta-gun
+  inaccuracy: 0.75
+  recoil: 1
+  reload: 11
+  shootSound: shoot
+  shootY: 6
+  bullet: {
+    type: MissileBulletType
+
+    shootEffect: shootSmall
+    hitEffect: hitBulletSmall
+    frontColor: bffffd
+    backColor: 6cccc9
+    hitColor: bd4277
+    trailColor: bffffd
+	trailChance: 0.5
+
+    pierce: false
+    homingPower: 0
+    damage: 20
+    hitSize: 1
+    collidesGround: true
+    collidesAir: true
+    absorbable: true
+    buildingDamageMultiplier: 0.02
+
+    height: 16
+    width: 2
+
+    lifetime: 10
+    speed: 34
+  }
+}
+]
+
+research: {
+parent: t2-recon
+requirements:
+[
+  {item: titanium, amount: 6400},
+  {item: thorium, amount: 1500},
+  {item: silicon, amount: 4000}
+]
+}
