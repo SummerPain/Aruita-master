@@ -25,6 +25,8 @@ restitution: 0.03
 cooldown: 0.003
 recoilAmount: 12
 reloadTime: 1500
+shootLength: -1
+
 ammoTypes:
 {
 
