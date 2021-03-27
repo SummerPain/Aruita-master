@@ -8,8 +8,8 @@ range: 800
 
 chargeTime: 240
 chargeMaxDelay: 240
-chargeEffects: 140
-chargeEffect: shieldApply
+chargeEffects: 320
+chargeEffect: lightningCharge
 chargeBeginEffect: blastExplosion
 chargeSound: pulse
 
@@ -25,7 +25,7 @@ restitution: 0.03
 cooldown: 0.003
 recoilAmount: 12
 reloadTime: 1500
-shootLength: -1
+shootLength: 67
 
 ammoTypes:
 {
@@ -43,8 +43,8 @@ lightningSpacing: 60
 lightningDelay: 0.2
 largeHit: false
 drawSize: 2400
-colors: ["ac80e0","cae2ed","57a8ff"]
-lightningColor: 57a8ff
+colors: ["00b3ff","cae2ed","57a8ff"]
+lightningColor: 57ffc7
 lightningAngleRand: 10
 lightningLength: 40
 lightningLengthRand: 20
@@ -60,7 +60,7 @@ lightningLengthRand: 20
 	shootEffect: railShoot
 	hitEffect: hitLaser
 
-	lifetime: 50
+	lifetime: 70
 	reloadMultiplier: 1
 	hitSound:laser
 	ammoMultiplier: 1
