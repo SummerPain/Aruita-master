@@ -6,12 +6,12 @@ size: 8
 shootShake: 10
 range: 800
 
-chargeTime: 240
-chargeMaxDelay: 240
+chargeTime: 210
+chargeMaxDelay: 210
 chargeEffects: 320
 chargeEffect: lightningCharge
 chargeBeginEffect: blastExplosion
-chargeSound: pulse
+chargeSound: heaven-charge
 
 inaccuracy: 0
 rotateSpeed: 0.09
