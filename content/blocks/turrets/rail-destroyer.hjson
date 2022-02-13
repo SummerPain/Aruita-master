@@ -1,58 +1,58 @@
-type: PowerTurret
-name: Rail Destroyer
-description: Heavy damaging bolt
-chargeTime: 80
-chargeEffects: 30
-chargeSound: lasercharge
-chargeEffect: lancerLaserCharge
-chargeBeginEffect: shockwave
-chargeMaxDelay: 55
-health: 12000
-size: 6
-shootShake: 2
-
-range: 560
-powerUse: 12
-inaccuracy: 0
-rotateSpeed: 0.92
-outlineIcon:true
-shootEffect: lancerLaserShoot 
-shootSound: laserblast
-recoilAmount: 8
-
-restitution: 0.01
-heatColor: ff0000
-shootType: {
-	type: MissileBulletType
-	width: 8
-	height: 40
-	shrinkY: 0
-	collides: true
-	hitSize: 9
-	trailColor: cfadff
-	trailChance: 1
-	collidesAir: true
-    frontColor: 6c03ff
-    backColor: cfadff
-	speed: 18
-	pierce: false
-	damage: 640
-	hitEffect: landShock 
-	lifetime: 60
-	reloadMultiplier: 1
-	ammoMultiplier: 10
-	splashDamageRadius: 22
-	reflectable: false
-    splashDamage: 400
-	homingPower: 0
-	buildingDamageMultiplier: 2
+{
+  "type": "PowerTurret",
+  "name": "Rail Destroyer",
+  "description": "Heavy damaging bolt",
+  "chargeTime": 80,
+  "chargeEffects": 30,
+  "chargeSound": "lasercharge",
+  "chargeEffect": "lancerLaserCharge",
+  "chargeBeginEffect": "shockwave",
+  "chargeMaxDelay": 55,
+  "health": 12000,
+  "size": 6,
+  "shootShake": 2,
+  "range": 560,
+  "powerUse": 12,
+  "inaccuracy": 0,
+  "rotateSpeed": 0.92,
+  "outlineIcon": true,
+  "shootEffect": "lancerLaserShoot",
+  "shootSound": "laserblast",
+  "recoilAmount": 8,
+  "restitution": 0.01,
+  "heatColor": "ff0000",
+  "shootType": {
+    "type": "MissileBulletType",
+    "width": 8,
+    "height": 40,
+    "shrinkY": 0,
+    "collides": true,
+    "hitSize": 9,
+    "trailColor": "cfadff",
+    "trailChance": 1,
+    "collidesAir": true,
+    "frontColor": "6c03ff",
+    "backColor": "cfadff",
+    "speed": 18,
+    "pierce": false,
+    "damage": 800,
+    "hitEffect": "landShock",
+    "lifetime": 60,
+    "reloadMultiplier": 1,
+    "ammoMultiplier": 10,
+    "splashDamageRadius": 22,
+    "reflectable": false,
+    "splashDamage": 400,
+    "homingPower": 0,
+    "buildingDamageMultiplier": 2
+  },
+  "reloadTime": 480,
+  "requirements": [
+    "thorium/250",
+    "titanium/250",
+    "phase-fabric/150",
+    "plastanium/100"
+  ],
+  "category": "turret",
+  "research": "meltdown"
 }
-reloadTime: 480,
-requirements: [
-  thorium/250
-  titanium/250
-  phase-fabric/150
-  plastanium/100
-]
-category: turret
-research: meltdown

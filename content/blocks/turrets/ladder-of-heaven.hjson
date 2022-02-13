@@ -1,76 +1,70 @@
-type: ItemTurret
-name: Ladder of heaven
-description: Bullet of world revolution
-health: 20000
-size: 8
-shootShake: 10
-range: 800
-
-chargeTime: 210
-chargeMaxDelay: 210
-chargeEffects: 320
-chargeEffect: lightningCharge
-chargeBeginEffect: blastExplosion
-chargeSound: heaven-charge
-
-inaccuracy: 0
-rotateSpeed: 0.09
-
-shootSound: heaven-shot
-maxAmmo: 1
-outlineIcon: false
-heatColor: ff0000
-
-restitution: 0.03
-cooldown: 0.003
-recoilAmount: 12
-reloadTime: 1500
-shootLength: 67
-
-ammoTypes:
 {
-
-varanium-shell:
-{
-	type: LaserBulletType
-	length: 2400
-	width: 48
-lengthFalloff: 0.5
-sideLength: 180
-sideWidth: 2.3
-sideAngle: 90
-lightningSpacing: 60
-lightningDelay: 0.2
-largeHit: false
-drawSize: 2400
-colors: ["00b3ff","cae2ed","57a8ff"]
-lightningColor: 57ffc7
-lightningAngleRand: 10
-lightningLength: 40
-lightningLengthRand: 20
-
-	collides: true
-	hitSize: 32
-	collidesAir: true
-
-	pierce: true
-	damage: 5000
-
-	smokeEffect: greenLaserChargeSmall
-	shootEffect: railShoot
-	hitEffect: hitLaser
-
-	lifetime: 70
-	reloadMultiplier: 1
-	hitSound:laser
-	ammoMultiplier: 1
+  "type": "ItemTurret",
+  "name": "Ladder of heaven",
+  "description": "Bullet of world revolution",
+  "health": 20000,
+  "size": 8,
+  "shootShake": 10,
+  "range": 800,
+  "chargeTime": 210,
+  "chargeMaxDelay": 210,
+  "chargeEffects": 320,
+  "chargeEffect": "lightningCharge",
+  "chargeBeginEffect": "blastExplosion",
+  "chargeSound": "heaven-charge",
+  "inaccuracy": 0,
+  "rotateSpeed": 0.09,
+  "shootSound": "heaven-shot",
+  "maxAmmo": 1,
+  "outlineIcon": false,
+  "heatColor": "ff0000",
+  "restitution": 0.03,
+  "cooldown": 0.003,
+  "recoilAmount": 12,
+  "reloadTime": 1500,
+  "shootLength": 67,
+  "ammoTypes": {
+    "varanium-shell": {
+      "type": "LaserBulletType",
+      "length": 2400,
+      "width": 48,
+      "lengthFalloff": 0.5,
+      "sideLength": 180,
+      "sideWidth": 2.3,
+      "sideAngle": 90,
+      "lightningSpacing": 60,
+      "lightningDelay": 0.2,
+      "largeHit": false,
+      "drawSize": 2400,
+      "colors": [
+        "00b3ff",
+        "cae2ed",
+        "57a8ff"
+      ],
+      "lightningColor": "57ffc7",
+      "lightningAngleRand": 10,
+      "lightningLength": 40,
+      "lightningLengthRand": 20,
+      "collides": true,
+      "hitSize": 32,
+      "collidesAir": true,
+      "pierce": true,
+      "damage": 5000,
+      "smokeEffect": "greenLaserChargeSmall",
+      "shootEffect": "railShoot",
+      "hitEffect": "hitLaser",
+      "lifetime": 70,
+      "reloadMultiplier": 1,
+      "hitSound": "laser",
+      "ammoMultiplier": 1
+    }
+  },
+  "requirements": [
+    "phase-fabric/500",
+    "titanium/500",
+    "surge-alloy/500",
+    "varanium/128"
+  ],
+  "category": "turret",
+  "research": "rail-destroyer"
 }
-}
-requirements: [
-  phase-fabric/500
-  titanium/500
-  surge-alloy/500
-  varanium/128
-]
-category: turret
-research: rail-destroyer

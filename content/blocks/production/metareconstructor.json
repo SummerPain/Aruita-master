@@ -17,7 +17,7 @@
 			"items": [
 				{ "item": "varanium", "amount": 11 }
 			]
-		},
+		}
 	},
 	"requirements": [
 		{ "item": "surge-alloy", "amount": 200 },

@@ -1,101 +1,86 @@
-type: ItemTurret
-name: Fury
-description: shoots bolts
-health: 2400
-size: 2
-range: 240
-inaccuracy: 2
-rotateSpeed: 1.75
-heatColor: bf0000
-maxAmmo: 40
-cooldown: 0.05
-restitution: 0.08
-reloadTime: 30
-shootCone: 4
-alternate: true
-shots: 2
-spread: 5
-
-chargeTime: 0
-chargeMaxDelay: 0
-shootEffect: shootBigSmoke2
-shootSound: shoot
-shootLength: 10
-ammoTypes:
 {
-    graphite:
-    {
-        type: BasicBulletType
-        width: 5 
-        height: 20
-        collides: true
-        trailColor: 61aac9
-        trailChance: 1
-        collidesAir: true
-        frontColor: 61aac9
-        backColor: 616fc9
-        speed: 30
-        damage: 80
-        
-
-        lifetime: 15
-        reloadMultiplier: 1
-
-        ammoMultiplier: 4
+  "type": "ItemTurret",
+  "name": "Fury",
+  "description": "shoots bolts",
+  "health": 2400,
+  "size": 2,
+  "range": 240,
+  "inaccuracy": 2,
+  "rotateSpeed": 1.75,
+  "heatColor": "bf0000",
+  "maxAmmo": 40,
+  "cooldown": 0.05,
+  "restitution": 0.08,
+  "reloadTime": 30,
+  "shootCone": 4,
+  "alternate": true,
+  "shots": 2,
+  "spread": 5,
+  "chargeTime": 0,
+  "chargeMaxDelay": 0,
+  "shootEffect": "shootBigSmoke2",
+  "shootSound": "shoot",
+  "shootLength": 10,
+  "ammoTypes": {
+    "graphite": {
+      "type": "BasicBulletType",
+      "width": 5,
+      "height": 20,
+      "collides": true,
+      "trailColor": "61aac9",
+      "trailChance": 1,
+      "collidesAir": true,
+      "frontColor": "61aac9",
+      "backColor": "616fc9",
+      "speed": 30,
+      "damage": 80,
+      "lifetime": 15,
+      "reloadMultiplier": 1,
+      "ammoMultiplier": 4
+    },
+    "titanium": {
+      "type": "BasicBulletType",
+      "width": 4,
+      "height": 26,
+      "collides": true,
+      "collidesAir": true,
+      "frontColor": "5964ff",
+      "backColor": "30368a",
+      "trailColor": "5964ff",
+      "trailChance": 1,
+      "speed": 35,
+      "damage": 100,
+      "lifetime": 14,
+      "reloadMultiplier": 1.25,
+      "ammoMultiplier": 2
+    },
+    "surge-alloy": {
+      "type": "FlakBulletType",
+      "width": 5,
+      "height": 320,
+      "collides": true,
+      "collidesAir": true,
+      "frontColor": "ffeb36",
+      "backColor": "a9bf39",
+      "trailColor": "ffeb36",
+      "trailChance": 1,
+      "speed": 40,
+      "damage": 125,
+      "lightning": 4,
+      "lightningLength": 10,
+      "explodeRange": 3,
+      "lightningColor": "ecff1c",
+      "lightningDamage": 40,
+      "lifetime": 12,
+      "reloadMultiplier": 1,
+      "ammoMultiplier": 2
     }
-    titanium:
-    {
-        type: BasicBulletType
-        width: 4 
-        height: 26
-        collides: true
-        collidesAir: true
-
-        frontColor: 5964ff
-        backColor: 30368a
-        trailColor: 5964ff
-        trailChance: 1
-
-        speed: 35
-        damage: 100
-
-        lifetime: 14
-        reloadMultiplier: 1.25
-
-        ammoMultiplier: 2
-    }
-    surge-alloy:
-    {
-        type: FlakBulletType
-        width: 5 
-        height: 320
-        collides: true
-        collidesAir: true
-
-        frontColor: ffeb36
-        backColor: a9bf39
-        trailColor: ffeb36
-        trailChance: 1
-
-        speed: 40
-        damage: 125
-
-        lightning: 4
-        lightningLength: 10
-        explodeRange: 3
-        lightningColor: ecff1c
-        lightningDamage: 40
-
-        lifetime: 12
-        reloadMultiplier: 1
-
-        ammoMultiplier: 2
-    }
+  },
+  "requirements": [
+    "titanium/120",
+    "thorium/60",
+    "lead/100"
+  ],
+  "category": "turret",
+  "research": "lancer"
 }
-requirements: [
-  titanium/120
-  thorium/60
-  lead/100
-]
-category: turret
-research: lancer

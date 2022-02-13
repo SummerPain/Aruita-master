@@ -15,7 +15,7 @@
 			"items": [
 				{ "item": "surge-alloy", "amount": 1 }, {"item": "thorium", "amount": 1}
 			]
-		},
+		}
 	},
 	"requirements": [
 		{ "item": "surge-alloy", "amount": 100 },
